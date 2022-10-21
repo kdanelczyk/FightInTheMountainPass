@@ -20,6 +20,7 @@ The solution is to hire the right fighters and raise the right stats
 
 ## [unit tests](https://github.com/kdanelczyk/FightInTheMountainPass/tree/master/src/test/java)
 
-![1](https://user-images.githubusercontent.com/100514357/197215487-aa096575-6e1c-49ae-b60b-ab11bcaeda08.png)
+![1](https://user-images.githubusercontent.com/100514357/197215839-f05b9030-fcb0-4bf4-a9c5-6708e74c2922.png)
 
-![2](https://user-images.githubusercontent.com/100514357/197215496-36c8f073-0fed-4188-82b5-f92a212360d2.png)
+![2](https://user-images.githubusercontent.com/100514357/197215844-b8af88d8-01cb-4b1d-b846-0093373f6cd2.png)
+
