@@ -398,12 +398,13 @@ public class Director {
 
     public void createEnemyCommander() {
         ArrayList<Warrior> enemy = new ArrayList<>();
-        enemy.add(new SwordsMan());
-        enemy.add(new Berserker());
-        enemy.add(new PikeMan());
-        enemy.add(new Berserker());
-        enemy.add(new PikeMan());
-        enemy.add(new SwordsMan());
+        WarriorFactory warriorFactory = new WarriorFactory();
+        enemy.add(warriorFactory.createWarrior(WarriorType.SWORDSMAN));
+        enemy.add(warriorFactory.createWarrior(WarriorType.BERSERKER));
+        enemy.add(warriorFactory.createWarrior(WarriorType.PIKEMAN));
+        enemy.add(warriorFactory.createWarrior(WarriorType.BERSERKER));
+        enemy.add(warriorFactory.createWarrior(WarriorType.PIKEMAN));
+        enemy.add(warriorFactory.createWarrior(WarriorType.SWORDSMAN));
         battleField.getEnemy().setWarriors(enemy);
     }
 
